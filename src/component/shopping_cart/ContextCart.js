@@ -45,7 +45,7 @@ const ContextCart=()=>{
                 </div>
             </div>
             <div className='card-total'>
-                <h3>Card Total : <span>{totalAmount}rs</span></h3>
+                <h3>Card Total : <span>{totalAmount}Rs</span></h3>
                 <button>checkout</button>
                 <button className='clear-cart' onClick={clearCart}>Clear Cart</button>
             </div>

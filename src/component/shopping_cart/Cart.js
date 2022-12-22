@@ -119,7 +119,7 @@ const Cart =()=>{
 
     useEffect(()=>{
         dispatch({type:"GET_TOTAL"});
-        console.log("Awesome");
+       // console.log("Awesome");
     },[state.item]);
 
     return(

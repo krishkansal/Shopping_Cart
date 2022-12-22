@@ -23,7 +23,7 @@ const Items=({id, title,description,price,img,quantity})=>{
                         </div>
 
                         <div className='price'>
-                            <h3>{price}</h3>
+                            <h3>{price}Rs</h3>
                         </div>
 
                         <div className='remove-item'>
